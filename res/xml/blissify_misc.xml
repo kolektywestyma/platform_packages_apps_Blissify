@@ -40,7 +40,7 @@
         <com.bliss.support.preferences.GlobalSettingSwitchPreference
             android:key="show_cpu_overlay"
             android:title="@string/show_cpu_info"
-            android:summary="@string/show_cpu_info_summary" 
+            android:summary="@string/show_cpu_info_summary"
             android:defaultValue="false" />
 
         <com.bliss.support.preferences.SecureSettingSwitchPreference
@@ -48,5 +48,11 @@
             android:title="@string/show_qs_call_strength_icon_title"
             android:summary="@string/show_qs_call_strength_icon_summary"
             android:defaultValue="true" />
+
+        <com.bliss.support.preferences.SystemSettingSwitchPreference
+            android:key="sensor_block"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>

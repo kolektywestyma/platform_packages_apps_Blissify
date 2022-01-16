@@ -217,7 +217,7 @@
 
     <string-array name="show_network_traffic_type_values" translatable="false">
         <item>3</item>
-        <item>4</item>      
+        <item>4</item>
         <item>1</item>
         <item>2</item>
         <item>0</item>
@@ -374,4 +374,3 @@
     </string-array>
 
 </resources>
-
